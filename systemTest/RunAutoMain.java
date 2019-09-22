@@ -8,13 +8,13 @@ public class RunAutoMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Result result = JUnitCore.runClasses(RunAuto.class);					
-		for (Failure failure : result.getFailures()) {							
-     System.out.println(failure.toString());					
-  }		
+		Result result = JUnitCore.runClasses(AutoTest.class);
+		for (Failure failure : result.getFailures()) {
+     System.out.println(failure.toString());
+  }
  // System.out.println("Result=="+result.wasSuccessful());
 		System.out.println("System autocheck is successfull");
-}		
+}
 	}
 
 
